@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+input,
+textarea {
+	border: none;
+}
+
+
+/* media */
+img,
+iframe,
+video {
+	max-inline-size: 100%;
+	block-size: auto;
+}
+
+/* list */
+ol,ul {
+	list-style: none;
+}
+
+/* text */
+a,
+p,
+label,
+span,
+button,
+article {
+	font-size: 1.6rem;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
