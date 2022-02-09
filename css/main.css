@@ -1,0 +1,87 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* components */
+@import url("./reset.css");
+@import url("/css/layout.css");
+@import url("/css/image.css");
+@import url("/components/Avatar/avatar.css");
+@import url("/components/Card/card.css");
+@import url("./navbar.css");
+@import url("./buttons.css");
+@import url("./list.css");
+@import url("/components/Badge/badge.css");
+@import url("/css/padding.css");
+@import url("/css/margin.css");
+@import url("./alerts.css");
+@import url("/css/typography.css");
+@import url("/css/calm.css");
+@import url("/css/utilities.css");
+
+:root{
+    /* 1rem = 16px */
+    --default-font-size: 87.5%; /* 14px */
+    --primary-color: #0f5057;
+    --primary-bg: #0f5057;
+    --primary-color-hover: #06d6a0;
+    --secondary-color: #07282c;
+    --secondary-bg: #1ea0ae;
+    --secondary-color-hover: #11656e;
+    --background-color:  #8EC5FC;
+    --card-background: #ccffff;
+    --info-color:#31708f;
+    --info-bg: #d9edf7;
+    --warning-color: #8a6d3b;
+    --warning-bg: #fcf8e3;
+    --danger-color: #c36642;
+    --danger-bg: #f2dede;
+    --success-color: #3c763d;
+    --start-btn-bg-color: #1583cc;
+    --success-bg: #dff0d8;
+    --text-color: #ffffff;
+    --dark-grey: rgb(100, 100, 100);
+    --grey: rgb(150, 150, 150);
+    --grey-highlight: rgb(150, 150, 150, 0.5);
+    --light-grey: rgb(240, 240, 240);
+    --default-box-shadow: 0px 3px 6px 0px rgb(105 111 125 / 49%);
+    --padding: 0.25rem;
+    --margin: 0.25rem;
+    --font-light: 300;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --button-border: 0.25rem;
+    --white: #ffffff;
+    --black: #111;
+  }
+
+
+  .component-display {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 1px solid var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    width: 50%;
+  }
+
+  .code-snippet {
+    box-sizing: border-box;
+    width: 50%;
+    max-height: 300px;
+    padding: 1rem 0;
+    background-color: #fafafa;
+    margin: 2rem 0;
+    border: 1px solid var(--primary-color);
+    overflow: auto;
+    border-radius: 0.3rem;
+  }
+  
+  /* .code-snippet iframe {
+    width: 100%;
+    border: none;
+  } */
