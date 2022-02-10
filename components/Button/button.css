@@ -1,0 +1,74 @@
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+  }
+  
+  .btn-solid-primary {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  .btn-solid-primary:hover {
+    background-color: var(--primary-color-hover);
+  }
+  
+  .btn-outline-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .btn-outline-primary:hover {
+    border: 1px solid var(--primary-color-hover);
+    background-color: var(--primary-color-hover);
+    color: var(--text-color);
+  }
+  
+  .btn-icon-primary {
+    color: var(--primary-color);
+  }
+  
+  .btn-link-primary {
+    text-decoration: underline var(--primary-color);
+    text-underline-position: under;
+    color: var(--primary-color);
+  }
+  
+  .btn-link-primary:hover {
+    color: var(--primary-color-hover);
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+  }
+   
+  /*Floating Button*/
+  
+   .btn-float {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+    font-size: 1.125rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    z-index: 2;
+  } 
+  
+  .btn-float:hover {
+    background-color: var(--primary-color-hover);
+    transform: scale(1.05, 1.05);
+  }
+  
+

@@ -30,6 +30,6 @@
   flex-direction: row;
 }
 
-.flex-column{
+.flex-col{
   flex-direction: column;
 }
