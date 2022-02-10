@@ -9,12 +9,12 @@
 @import url("/components/Avatar/avatar.css");
 @import url("/components/Card/card.css");
 @import url("./navbar.css");
-@import url("./buttons.css");
+@import url("/components/Button/button.css");
 @import url("./list.css");
 @import url("/components/Badge/badge.css");
 @import url("/css/padding.css");
 @import url("/css/margin.css");
-@import url("./alerts.css");
+@import url("/components/Alert/alert.css");
 @import url("/css/typography.css");
 @import url("/css/calm.css");
 @import url("/css/utilities.css");
