@@ -1,0 +1,21 @@
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-round {
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-square {
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-dummy-size {
+    height: 12.5rem;
+    width: 12.5rem;
+}
+
