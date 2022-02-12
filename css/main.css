@@ -11,6 +11,7 @@
 @import url("./navbar.css");
 @import url("/components/Button/button.css");
 @import url("./list.css");
+@import url("/components/Toast/toast.css");
 @import url("/components/Badge/badge.css");
 @import url("/css/padding.css");
 @import url("/css/margin.css");
@@ -18,6 +19,7 @@
 @import url("/css/typography.css");
 /* @import url("/css/calm.css"); */
 @import url("/css/utilities.css");
+@import url("/components/Modal/modal.css");
 @import url("/components/Input/input.css");
 
 :root{
@@ -39,6 +41,7 @@
     --danger-bg: #f2dede;
     --danger-hover: #d31609;
     --success-color: #3c763d;
+    --success-color-light: #38a169;
     --start-btn-bg-color: #1583cc;
     --success-bg: #dff0d8;
     --text-color: #ffffff;

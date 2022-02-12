@@ -71,4 +71,8 @@
     transform: scale(1.05, 1.05);
   }
   
+  .btn-outline-secondary {
+    border: 1px solid var(--grey);
+    color: var(--dark-grey);
+}
 
