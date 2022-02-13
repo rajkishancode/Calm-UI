@@ -9,7 +9,7 @@
      width: 100%;
      height: 50vh;
      overflow: auto;
-     padding: 15px 30px;
+     padding: 1.5rem 3rem;
      box-sizing: border-box;
  }
 
@@ -18,8 +18,8 @@
      right: 7px;
  }
 
- .modal-text{
-    line-height: normal;
+ .modal-text {
+     line-height: normal;
  }
 
  .active {
