@@ -22,6 +22,27 @@
   padding: calc(5 * var(--padding));
 }
 
+.p-6 {
+  padding: calc(6 * var(--padding));
+}
+
+.p-7 {
+  padding: calc(7 * var(--padding));
+}
+
+.p-8 {
+  padding: calc(8 * var(--padding));
+}
+
+.p-9 {
+  padding: calc(9 * var(--padding));
+}
+
+.p-10 {
+  padding: calc(10 * var(--padding));
+}
+
+/*  padding top*/
 .pt-1 {
   padding-top: calc(1 * var(--padding));
 }
@@ -42,6 +63,27 @@
   padding-top: calc(5 * var(--padding));
 }
 
+.pt-6 {
+  padding-top: calc(6 * var(--padding));
+}
+
+.pt-7 {
+  padding-top: calc(7 * var(--padding));
+}
+
+.pt-8 {
+  padding-top: calc(8 * var(--padding));
+}
+
+.pt-9 {
+  padding-top: calc(9 * var(--padding));
+}
+
+.pt-10 {
+  padding-top: calc(10 * var(--padding));
+}
+
+/*  padding bottom*/
 .pb-1 {
   padding-bottom: calc(1 * var(--padding));
 }
@@ -62,6 +104,27 @@
   padding-bottom: calc(5 * var(--padding));
 }
 
+.pb-6 {
+  padding-bottom: calc(6 * var(--padding));
+}
+
+.pb-7 {
+  padding-bottom: calc(7 * var(--padding));
+}
+
+.pb-8 {
+  padding-bottom: calc(8 * var(--padding));
+}
+
+.pb-9 {
+  padding-bottom: calc(9 * var(--padding));
+}
+
+.pb-10 {
+  padding-bottom: calc(10 * var(--padding));
+}
+
+/*  padding left*/
 .pl-1 {
   padding-left: calc(1 * var(--padding));
 }
@@ -82,6 +145,27 @@
   padding-left: calc(5 * var(--padding));
 }
 
+.pl-6 {
+  padding-left: calc(6 * var(--padding));
+}
+
+.pl-7 {
+  padding-left: calc(7 * var(--padding));
+}
+
+.pl-8 {
+  padding-left: calc(8 * var(--padding));
+}
+
+.pl-9 {
+  padding-left: calc(9 * var(--padding));
+}
+
+.pl-10 {
+  padding-left: calc(10 * var(--padding));
+}
+
+/*  padding right*/
 .pr-1 {
   padding-right: calc(1 * var(--padding));
 }
@@ -102,6 +186,27 @@
   padding-right: calc(5 * var(--padding));
 }
 
+.pr-6 {
+  padding-right: calc(6 * var(--padding));
+}
+
+.pr-7 {
+  padding-right: calc(7 * var(--padding));
+}
+
+.pr-8 {
+  padding-right: calc(8 * var(--padding));
+}
+
+.pr-9 {
+  padding-right: calc(9 * var(--padding));
+}
+
+.pr-10 {
+  padding-right: calc(10 * var(--padding));
+}
+
+/*  padding horizontal*/
 .px-1 {
   padding-left: calc(1 * var(--padding));
   padding-right: calc(1 * var(--padding));
@@ -127,6 +232,32 @@
   padding-right: calc(5 * var(--padding));
 }
 
+.px-6 {
+  padding-left: calc(6 * var(--padding));
+  padding-right: calc(6 * var(--padding));
+}
+
+.px-7 {
+  padding-left: calc(7 * var(--padding));
+  padding-right: calc(7 * var(--padding));
+}
+
+.px-8 {
+  padding-left: calc(8 * var(--padding));
+  padding-right: calc(8 * var(--padding));
+}
+
+.px-9 {
+  padding-left: calc(9 * var(--padding));
+  padding-right: calc(9 * var(--padding));
+}
+
+.px-10 {
+  padding-left: calc(10 * var(--padding));
+  padding-right: calc(10 * var(--padding));
+}
+
+/*  padding vertical*/
 .py-1 {
   padding-top: calc(1 * var(--padding));
   padding-bottom: calc(1 * var(--padding));
@@ -150,4 +281,29 @@
 .py-5 {
   padding-top: calc(5 * var(--padding));
   padding-bottom: calc(5 * var(--padding));
+}
+
+.py-6 {
+  padding-top: calc(6 * var(--padding));
+  padding-bottom: calc(6 * var(--padding));
+}
+
+.py-7 {
+  padding-top: calc(7 * var(--padding));
+  padding-bottom: calc(7 * var(--padding));
+}
+
+.py-8 {
+  padding-top: calc(8 * var(--padding));
+  padding-bottom: calc(8 * var(--padding));
+}
+
+.py-9 {
+  padding-top: calc(9 * var(--padding));
+  padding-bottom: calc(9 * var(--padding));
+}
+
+.py-10 {
+  padding-top: calc(10 * var(--padding));
+  padding-bottom: calc(10 * var(--padding));
 }
