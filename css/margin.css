@@ -48,6 +48,10 @@
 }
 
 /*  margin top */
+.mt-auto {
+  margin-top: auto;
+}
+
 .mt-0 {
   margin-top: 0;
 }
