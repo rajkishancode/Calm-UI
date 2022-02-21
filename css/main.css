@@ -22,6 +22,7 @@
 @import url("/components/Modal/modal.css");
 @import url("/components/Input/input.css");
 @import url("/components/Navigation/navigation.css");
+@import url("/css/doc.css");
 
 :root{
     /* 1rem = 16px */
@@ -62,6 +63,7 @@
     --white: #ffffff;
     --black: #111;
     --active-color: #1EA7FD;
+    --border-bottom: #d9d9d9;
   }
 
 

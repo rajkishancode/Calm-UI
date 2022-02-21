@@ -8,36 +8,140 @@
   <link rel="stylesheet" href="/css/main.css">
   <title>Calm_UI | Alert</title>
 </head>
+
 <body>
-<section class="Alert">
+  <div class="container">
+    <header class="head-nav">
+      <h2><a href="/index.html" class="logo">Calm UI</a></h2>
+      <div class="navigation">
+        <a href="/pages/documentation.html">Home</a>
+        <a href="/pages/documentation.html">Docs</a>
+        <a href="https://github.com/rajkishancode/Calm-Designs">Contribute</a>
+      </div>
+    </header>
 
-    <h4 class="mb-3 text-primary-color">Alerts</h4>
-    <h6 class="mt-5 mb-3 text-primary-color">Alerts are used to communicate a state that affects a system, feature or page.</h6>
-    <p class="mb-3">Alert Variants : | Success| Info | Warning | Error | </p>
-    <div class="component-display flex-col">
-        <div class="alert success d-flex align-center w-100 p-4 mb-2">
-            <p class="py-3"> <i class="fa-solid fa-thumbs-up mr-1"></i> <strong>Success!</strong>  This alert box could indicate a successful action. </p>
-          </div>
-          <div class="alert info d-flex align-center w-100 p-4 mb-2">
-            <p class="py-3"> <i class="fas fa-info-circle mr-2 "></i><strong>Info!</strong>  This alert box could indicate a neutral action. </p>
-          </div>
-          <div class="alert error d-flex align-center w-100 p-4 mb-2">
-            <p class="py-3"><i class="fa-solid fa-square-xmark mr-2"></i><strong>Error!</strong>  This alert box could indicate a error or negative action. </p>
-          </div>
-          <div class="alert warning d-flex align-center w-100 p-4 mb-2">
-            <p class="py-3"><i class="fa-solid fa-circle-exclamation mr-2"></i><strong>Warning!</strong> This alert box indicate warning that need attention. </p>
-          </div>
-    </div>
-    <div class="code-snippet">
-        <code>
-            <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-thumbs-up%2520mr-1%2522%253E%253C%252Fi%253E%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520%2520This%2520alert%2520box%2520could%2520indicate%2520a%2520successful%2520action.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2520mr-2%2520%2522%253E%253C%252Fi%253E%253Cstrong%253EInfo%21%253C%252Fstrong%253E%2520%2520This%2520alert%2520box%2520could%2520indicate%2520a%2520neutral%2520action.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-square-xmark%2520mr-2%2522%253E%253C%252Fi%253E%253Cstrong%253EError%21%253C%252Fstrong%253E%2520%2520This%2520alert%2520box%2520could%2520indicate%2520a%2520error%2520or%2520negative%2520action.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-circle-exclamation%2520mr-2%2522%253E%253C%252Fi%253E%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520alert%2520box%2520indicate%2520warning%2520that%2520need%2520attention.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
-  style="width: 100%; height: auto; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </code>
-    </div>
+    <div class="doc-container">
+      <div class="side-bar">
 
-</section>    
+        <div class="nested-list1">
+          <div class="list-topic">
+            <a href="/Components/Avatar/avatar.html">Components</a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/components/Avatar/avatar.html">
+                Avatar
+              </a>
+            </li>
+            <li>
+              <a href="/components/Alert/alert.html">
+                Alert
+              </a>
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html">
+                Badge
+              </a>
+            </li>
+            <li>
+              <a href="/components/Button/button.html">
+                Button
+              </a>
+            </li>
+            <li>
+              <a href="/components/Card/card.html">
+                Card
+              </a>
+            </li>
+            <li>
+              <a href="/components/Image/image.html">
+                Image
+              </a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html">
+                Input
+              </a>
+            </li>
+            <li>
+              <a href="/components/Navigation/navigation.html">
+                Navigation
+              </a>
+            </li>
+            <li>
+              <a href="/components/Rating/rating.html">
+                Rating
+              </a>
+            </li>
+
+            <li>
+              <a href="/components/Toast/toast.html">
+                Toast
+              </a>
+            </li>
+            <li>
+              <a href="/components/Modal/modal.html">
+                  Modal
+              </a>
+          </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="doc-content">
+
+        <section class="Alert">
+
+          <h4 class="mb-3 text-primary-color">Alerts</h4>
+          <h6 class="mt-5 mb-3 text-primary-color">Alerts are used to communicate a state that affects a system, feature
+            or page.</h6>
+          <p class="mb-3">Alert Variants : | Success| Info | Warning | Error | </p>
+          <div class="component-display flex-col">
+            <div class="alert success d-flex align-center w-100 p-4 mb-2">
+              <p class="py-3"> <i class="fa-solid fa-thumbs-up mr-1"></i> <strong>Success!</strong> This alert box could
+                indicate a successful action. </p>
+            </div>
+            <div class="alert info d-flex align-center w-100 p-4 mb-2">
+              <p class="py-3"> <i class="fas fa-info-circle mr-2 "></i><strong>Info!</strong> This alert box could
+                indicate a neutral action. </p>
+            </div>
+            <div class="alert error d-flex align-center w-100 p-4 mb-2">
+              <p class="py-3"><i class="fa-solid fa-square-xmark mr-2"></i><strong>Error!</strong> This alert box could
+                indicate a error or negative action. </p>
+            </div>
+            <div class="alert warning d-flex align-center w-100 p-4 mb-2">
+              <p class="py-3"><i class="fa-solid fa-circle-exclamation mr-2"></i><strong>Warning!</strong> This alert
+                box indicate warning that need attention. </p>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-thumbs-up%2520mr-1%2522%253E%253C%252Fi%253E%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520%2520This%2520alert%2520box%2520could%2520indicate%2520a%2520successful%2520action.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2520mr-2%2520%2522%253E%253C%252Fi%253E%253Cstrong%253EInfo%21%253C%252Fstrong%253E%2520%2520This%2520alert%2520box%2520could%2520indicate%2520a%2520neutral%2520action.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-square-xmark%2520mr-2%2522%253E%253C%252Fi%253E%253Cstrong%253EError%21%253C%252Fstrong%253E%2520%2520This%2520alert%2520box%2520could%2520indicate%2520a%2520error%2520or%2520negative%2520action.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2520d-flex%2520align-center%2520w-100%2520p-4%2520mb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522py-3%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-circle-exclamation%2520mr-2%2522%253E%253C%252Fi%253E%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520alert%2520box%2520indicate%2520warning%2520that%2520need%2520attention.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="width: 100%; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </code>
+          </div>
+        </section>
+
+        <footer>
+          <div class="prev-comp">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+            <a href="/components/Avatar/avatar.html">Avatar</a>
+
+          </div>
+          <div class="next-comp">
+            <a href="../Badge/badge.html">Badge</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+              role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24">
+              <path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+            </svg>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
