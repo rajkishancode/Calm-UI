@@ -27,6 +27,7 @@
  .card-content {
    letter-spacing: 0.0125em;
    line-height: 1.5rem;
+   font-size: 1.2rem;
  }
 
  .card-badge {
