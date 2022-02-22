@@ -35,4 +35,94 @@ You can use this library by adding css stylesheet to your website. To get starte
 ```bash
  <link rel="stylesheet" href="https://calm-ui.netlify.app/css/main.css">
 ```
-Visit docs to explore more.
+
+Visit [docs](https://calm-ui.netlify.app/pages/documentation.html) to explore more.
+
+## Components of Calm:
+
+- Alert
+
+    - Standard Alert
+    - Alert with Icons
+
+- Avatar
+	- Standard Avatar
+	- Avatar with initials
+
+
+- Badge
+
+	- Badge on avatar
+	- Badge on icons
+
+- Button
+
+	- Standard button
+	- Outline button
+	- Link button
+	- Icon button
+	- Floating Button
+
+- Card
+
+	- Text only card
+	- Image Card
+	- E-commerce Card
+	- Social Media Card
+	- Card with text overlay
+	- Card with dismiss
+	- Card with Badges
+	- Horizontal card
+
+- Responsive Image
+
+	- Round Image
+	- Square Image
+
+- Input
+
+	- Standard Input
+	- Validation and Error Inputs
+	- Simple textarea
+
+- Navigation
+
+	- Simple Navigation (Desktop)
+
+- Modal
+
+	- Modal
+
+- Rating
+
+	- Star Rating
+
+
+## Authors
+
+- [Raj Kishan](https://github.com/rajkishancode)
+
+
+## Features
+
+- Ease of Styling
+
+- Flexible & composable
+
+- Accessible
+
+- Cross platform
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajkishancode)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/raj_10aug)
+
+
+
+## Feedback
+
+If you have any feedback, please reach out at rajkishn@gmail.com
+
+
