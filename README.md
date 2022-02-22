@@ -2,6 +2,10 @@
 
 Calm UI is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.
 
+# Home Page
+![Screenshot 2022-02-22 134256](https://user-images.githubusercontent.com/68591610/155090303-f66ffae2-d253-4954-8f0d-d870f70a29e9.png)
+
+
 ## Tech Stack
 
 **Client:** Html, Css, Javascript
