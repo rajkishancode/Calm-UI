@@ -36,7 +36,7 @@ header .navigation a {
 .doc-content {
     min-width: 0;
     margin: 0px auto;
-    max-width: 1000px;
+    max-width: 800px;
     flex: 1 1 0%;
 }
 
