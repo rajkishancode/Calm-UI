@@ -45,7 +45,7 @@
 }
 
 .badge-number {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-bg);
     color: var(--text-color);
     border: none;
     right: 2%;
@@ -56,4 +56,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.badge-icon {
+    font-size: 4.2rem;
+    color: var(--primary-color);
 }
