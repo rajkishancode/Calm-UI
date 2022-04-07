@@ -1,7 +1,7 @@
 .btn {
   padding: 10px 20px;
   color: #fff;
-  background: var(--btn-bg-color);
+  /* background: var(--btn-bg-color); */
   text-decoration: none;
   margin: auto;
   border-radius: 5px;
@@ -23,8 +23,8 @@
 
 .btn-outline-primary:hover {
   border: 1px solid var(--primary-color-hover);
-  background-color: var(--primary-color-hover);
-  color: var(--text-color);
+  /* background-color: var(--primary-color-hover);
+  color: var(--text-color); */
 }
 
 .btn-icon-primary {
