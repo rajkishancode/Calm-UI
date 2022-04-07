@@ -46,6 +46,26 @@ p {
   color: var(--secondary-color);
 }
 
+.text-info-color {
+  color: var(--info-color);
+}
+
+.text-success-color {
+  color: var(--success-color);
+}
+
+.text-warning-color {
+  color: var(--warning-color);
+}
+
+.text-danger-color {
+  color: var(--danger-color);
+}
+
+.text-grey-color {
+  color: var(--grey);
+}
+
 .text-disabled {
   color: var(--dark-grey);
 }
